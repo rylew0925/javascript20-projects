@@ -1,3 +1,5 @@
+[🔗 View Live Preview](https://rylew0925.github.io/javascript20-projects/Light-Dark-Mode/)
+
 # javascript20-projects
 
 Student submissions for the [JavaScript 20 Projects Course](https://academy.zerotomastery.io/p/javascript-projects)
