@@ -623,7 +623,7 @@ Check out all of the submissions below! Well done everyone!
 - Yu Ling Chen - [Github](https://github.com/Yo0GuitarIT/DarkLightMode) | [View Live](https://yo0guitarit.github.io/DarkLightMode/)
 - Vamshidhar Thonti - [Github](https://github.com/vamshidhar-thonti/JavaScript/tree/master/JS-Projects/light-dark-mode) | [View Live](https://vamshidhar-thonti.github.io/JavaScript/JS-Projects/light-dark-mode/)
 - Melissa Cutts - [Github](https://github.com/the-codingphoenix/Light-Dark-Mode) | [View Live](https://the-codingphoenix.github.io/Light-Dark-Mode/)
-- Richard Lew - [Github](https://github.com/rylew0925/dark-light-mode.git)
+- Richard Lew – [GitHub](https://github.com/rylew0925/javascript20-projects) | [View Live Demo](https://rylew0925.github.io/javascript20-projects/Light-Dark-Mode/)
 - LaClarence - [Github](https://github.com/LaClarence/light-dark-mode/) | [View Live](https://laclarence.github.io/light-dark-mode/)
 
 ### Animated Template - Original: [Github](https://github.com/JacintoDesign/animated-template)
