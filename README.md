@@ -45,6 +45,7 @@ Check out all of the submissions below! Well done everyone!
 - Mihai Pavelescu - [Github](https://github.com/MediaExpres/quote-generator_byMediaExpres) | [View Live](https://mediaexpres.github.io/quote-generator_byMediaExpres/)
 - Mahmoud Mostafa - [Github](https://github.com/Mahmoud-Moustafa93/quote-generator) | [View Live](https://mahmoud-moustafa93.github.io/quote-generator/)
 - Ajay Boro - [Github](https://github.com/ajaybor0/cite-generator) | [View Live](https://cite-generator.netlify.app/)
+- Abdallahman - Habyarimana [Github](https://github.com/Abdallahman-habyarimana/Quote-generator) | [View Live](https://abdallahman-habyarimana.github.io/Quote-generator/)
 - Cristian Tudor - [Github](https://github.com/cristianstudor/quote-generator) | [View Live](https://cristianstudor.github.io/quote-generator/)
 - Ashok - [Github](https://github.com/Ashoka2002/js-project-1-quote-generator) | [View Live](https://ashoka2002.github.io/js-project-1-quote-generator/)
 - Alaa Aldeen Shammr - [Github](https://github.com/aladdinshammr/quote-generator) | [View Live](https://aladdinshammr.github.io/quote-generator/)
@@ -883,7 +884,7 @@ Check out all of the submissions below! Well done everyone!
 - Daniel Wernz - [Github](https://github.com/dwernz/ZTM_Portfolio/tree/master/project/spock-rock-game) | [View Live](https://dwernz.github.io/ZTM_Portfolio/project/spock-rock-game/)
 - Vamshidhar Thonti - [Github](https://github.com/vamshidhar-thonti/JavaScript/tree/master/JS-Projects/spock-rock-game) | [View Live](https://vamshidhar-thonti.github.io/JavaScript/JS-Projects/spock-rock-game/)
 
-### NASA APOD - Original: [Github](https://github.com/JacintoDesign/nasa-api-pictures)
+### NASA APOD - Original: [Github](https://github.com/JacintoDesign/nasa-api-pictures.
 
 - Anette [Github](https://github.com/RedSquirrrel/nasa-apod) [View Live](https://redsquirrrel.github.io/nasa-apod/)
 - Russ Perry - [Github](https://github.com/rperry99/Nasa-APOD) | [View Live](https://rperry99.github.io/Nasa-APOD/)
