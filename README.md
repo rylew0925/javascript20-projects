@@ -1040,6 +1040,7 @@ Check out all of the submissions below! Well done everyone!
 - BM Mahamudul Hasan Shohug - [Github](https://github.com/bshohug/js-calculator) | [View Live](https://bshohug.github.io/js-calculator/)
 - Vishal Krishna - [Github](https://github.com/vishalkrishna8/calculator)
 - Vamshidhar Thonti - [Github](https://github.com/vamshidhar-thonti/JavaScript/tree/master/JS-Projects/calculator) | [View Live](https://vamshidhar-thonti.github.io/JavaScript/JS-Projects/calculator/)
+- Richard Y. Lew - [Github](https://github.com/rylew0925/javascript20-projects) | [View Live](https://rylew0925.github.io/javascript20-projects/Glass%20Neon%20Calculator/)
 
 ### Splash Page - Original: [Github](https://github.com/JacintoDesign/splash-page)
 
