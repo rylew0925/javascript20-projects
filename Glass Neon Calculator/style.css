@@ -1,0 +1,129 @@
+/* Reset default styles and set font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Full-screen background image */
+body {
+  background-image: url("img/stormy_coast_neon_bg.jpg");
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/* Center the calculator on the screen */
+.calculator {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Glassmorphism-style container */
+.content {
+  background-color: rgba(255, 255, 255, 0.181);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgb(170, 170, 170);
+  padding: 26px;
+  border-radius: 20px;
+  box-shadow: 0px 80px 50px -30px rgba(41, 168, 255, 0.2);
+}
+
+/* Input box styling */
+input {
+  width: 330px;
+  padding: 25px;
+  margin: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 45px;
+  text-align: right;
+  color: white;
+}
+
+/* Placeholder color */
+input::placeholder {
+  color: white;
+}
+
+/* General button styling */
+button {
+  padding: 15px;
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: 21px;
+  font-weight: 600;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Neon glow effect on hover */
+button:hover {
+  background-color: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+  border: 2px solid #03e9f4;
+}
+
+/* Equal button styling */
+.equal {
+  width: 144px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+/* Equal button hover effect */
+.equal:hover {
+  background-color: #3ffa36;
+  box-shadow: 0 0 5px #3ffa36,
+              0 0 25px #3ffa36,
+              0 0 50px #3ffa36,
+              0 0 200px #3ffa36;
+  border: 2px solid #3ffa36;
+}
+
+/* Clear button styling */
+.clear {
+  background-color: transparent;
+  font-weight: 400;
+}
+
+/* Clear button hover effect */
+.clear:hover {
+  background-color: #f84c35;
+  box-shadow: 0 0 5px #f84c35,
+              0 0 25px #f84c35,
+              0 0 50px #f84c35,
+              0 0 200px #f84c35;
+  border: 2px solid #f84c35;
+}
+
+/* Operator button styling */
+.main {
+  background-color: transparent;
+}
+
+/* Operator button hover effect */
+.main:hover {
+  background-color: #3ffa36;
+  box-shadow: 0 0 5px #3ffa36,
+              0 0 25px #3ffa36,
+              0 0 50px #3ffa36,
+              0 0 200px #3ffa36;
+  border: 2px solid #3ffa36;
+}

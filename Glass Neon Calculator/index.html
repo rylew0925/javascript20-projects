@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Define character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Set viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title -->
+    <title>Neon Calculator</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Main calculator wrapper -->
+    <div class="calculator">
+      <div class="content">
+        <!-- Display input box for calculations -->
+        <input type="text" placeholder="0" id="inputBox">
+
+        <!-- First row: clear and operator buttons -->
+        <div>
+          <button class="clear">AC</button>
+          <button class="clear">DEL</button>
+          <button class="main">%</button>
+          <button class="main">/</button>
+        </div>
+
+        <!-- Number and operator rows -->
+        <div>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="main">*</button>
+        </div>
+
+        <div>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class="main">-</button>
+        </div>
+
+        <div>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class="main">+</button>
+        </div>
+
+        <!-- Final row: 0, decimal, and equals -->
+        <div>
+          <button>0</button>
+          <button>.</button>
+          <button class="equal">=</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
