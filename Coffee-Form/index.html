@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validator</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Brew Your Membership!</h1>
+    <form id="form">
+      <!-- Barista Alias -->
+      <div class="form-group">
+        <label for="barista">Barista Alias</label>
+        <input type="text" id="barista" name="barista" placeholder="Barista Alias" required minlength="3" maxlength="100">
+      </div>
+
+      <!-- Roast Name -->
+      <div class="form-group">
+        <label for="name">Your Roast Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Roast Name" required minlength="3" maxlength="100">
+      </div>
+
+      <!-- Phone -->
+      <div class="form-group">
+        <label for="phone">Coffee Hotline</label>
+        <input type="tel" id="phone" name="phone" placeholder="555-BREW-5555" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      </div>
+
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Espresso Email</label>
+        <input type="email" id="email" name="email" placeholder="latte@yourcafe.com" required>
+      </div>
+
+      <!-- Website -->
+      <div class="form-group">
+        <label for="website">Your Digital Café</label>
+        <input type="url" id="website" name="website" placeholder="https://yourcafe.com" required>
+      </div>
+
+      <!-- Password -->
+      <div class="form-group">
+        <label for="password1">Your Secret Recipe Password</label>
+        <input type="password" id="password1" placeholder="Min. 8 beans strong)" required 
+               pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$">
+      </div>
+
+      <!-- Confirm Password -->
+      <div class="form-group">
+        <label for="password2">Taste Test: Confirm Password</label>
+        <input type="password" id="password2" placeholder="Confirm Password" required 
+               pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" name="password">
+      </div>
+
+      <!-- Address -->
+      <div class="form-group">
+        <label for="address">Where You Roast</label>
+        <input type="text" id="address" name="address" placeholder="Downtown Roast House" required>
+      </div>
+
+      <!-- Grind Options -->
+      <fieldset>
+        <legend>What's Your Grind?</legend>
+
+        <label class="option">
+          <input type="radio" name="grind" value="decaf" id="decaf">
+          Decaf <span id="decaf-desc" class="description">Just Browsing</span>
+        </label>
+
+        <label class="option">
+          <input type="radio" name="grind" value="latte" id="latte">
+          Latte <span id="latte-desc" class="description">Smooth & Steady</span>
+        </label>
+
+        <label class="option">
+          <input type="radio" name="grind" value="espresso" id="espresso">
+          Espresso <span id="espresso-desc" class="description">Strong & Focused</span>
+        </label>
+
+        <label class="option">
+          <input type="radio" name="grind" value="double" id="double">
+          Double Espresso <span id="double-desc" class="description">Fully Caffeinated!</span>
+        </label>
+      </fieldset>
+
+      <button type="submit">Start Brewing</button>
+    </form>
+
+    <div class="message-container">
+      <h3 id="message">Don't Let Your Coffee Get Cold!</h3>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

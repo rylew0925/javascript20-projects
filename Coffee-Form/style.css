@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Sen&display=swap");
+
+:root {
+  --espresso-brown: #4B2E2E;
+  --latte-beige: #D7C4A3;
+  --foam-white: #F5F1E6;
+  --terracotta: #C97B63;
+  --golden-honey: #D4A373;
+  --olive-green: #7A8450;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Sen', sans-serif;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--foam-white);
+  color: var(--espresso-brown);
+}
+
+.container {
+  width: 480px;
+  background-color: var(--foam-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid var(--espresso-brown);
+  border-radius: 10px;
+  box-shadow: 0 5px 20px var(--terracotta);
+  padding: 1em;
+}
+
+h1, legend {
+  color: var(--espresso-brown);
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  background-color: var(--espresso-brown);
+  color: var(--foam-white);
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px 20px;
+  width: 60%;
+  margin: 80px auto 0 auto; /* centers horizontally */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--golden-honey);
+  color: var(--espresso-brown);
+}
+
+form {
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="url"] {
+  width: 100%;
+  height: 34px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+  border: 2px solid var(--espresso-brown);
+  padding: 1em;
+  margin: 20px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+.option input[type="radio"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.description {
+  font-style: italic;
+  color: var(--terracotta);
+  display: none;
+}
+
+.description.show {
+  display: inline;
+  animation: steamFade 0.6s ease-out;
+}
+
+@keyframes steamFade {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
